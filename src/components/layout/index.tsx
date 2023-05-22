@@ -25,11 +25,7 @@ export const Layout: React.FC<LayoutProps> = (props: LayoutProps) => {
                 </section>
                 <section className="col-10">
                 <div className="row d-flex flex-column">
-                    <div className="menu_topo d-flex justify-content-end">
-                        <div className="d-flex justify-content-center align-items-center" style={{cursor: 'pointer'}} data-toggle="tooltip" data-placement="top" title="Clique para trocar de sala!">
-                            <small style={{ color: 'black', fontWeight: 'bold', fontSize: '12px'}}>LOCALIZAÇÃO: {props.sala?.toUpperCase()}</small>
-                            <img src="/assets/images/change.svg" width="20px" style={{border: 'solid 1px', borderRadius: '4px', backgroundColor: '#2D4562'}} className="img-fluid mr-4 ml-1"/>
-                        </div>
+                    <div className="menu_topo d-flex justify-content-end">   
                     </div>
                     <div className="conteudo">
                         <div className="container-lg mt-5">

@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+main {
+    min-height: 100vh;
+    min-height: calc(100vh - 132px);
+    min-height: -moz-calc(100vh - 132px);
+    min-height: -webkit-calc(100vh - 132px);
+    background-color: rgb(235, 236, 236);
+}
+
+.input_personalizado{
+    height: 44px;
+    padding: 20px;
+    border-radius: 6px;
+    border: solid #b1b1b1 0.1px;
+}
+
+form a {
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+}
+
+form a:hover{
+    color: rgb(59, 59, 59);
+}
+
+.btn-personalizado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    text-transform: uppercase;
+    transition: 1s;
+    background-color: #2D4562;
+    color: white;
+    border-radius: 0 10px 0 10px;
+    border: solid 1px #2D4562;
+    width: 167px;
+    height: 51px;
+}
+
+.btn-personalizado:hover{
+    color: white;
+    transition: 1s;
+    background-color: #1e66bf;
+    border: solid 1px #1e66bf;
+    text-decoration: none;
+}
+
+.btn-personalizado-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    text-transform: uppercase;
+    transition: 1s;
+    background-color: #656565;
+    color: white;
+    border-radius: 0 10px 0 10px;
+    border: solid 1px #656565;
+    width: 167px;
+    height: 51px;
+}
+
+.btn-personalizado-sec:hover{
+    color: white;
+    transition: 1s;
+    background-color: #929090;
+    border: solid 1px #929090;
+    text-decoration: none;
+}
+
+form small {
+    font-size: small;
+    color: #656565;
+}
+
+footer {
+    background-color: #2D4562;
+    min-height: 132px;
+}
+
+
+/* Layout Dashboard */
+
+.menu_lateral{
+    background: #2D4562;
+    box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    height: 100%;
+    overflow: auto;
+}
+
+.menu_lateral ul{
+    padding: 30px;
+    
+   
+}
+
+.menu_lateral ul > li {
+    margin-bottom: 13px;
+}
+
+.menu_lateral ul > li > a{
+    color: white;
+    font-size: 16px;
+}
+
+
+.menu_topo {
+    background: rgba(64, 84, 178, 0.2);
+    height: 41px;
+}
+
+.menu_topo > img {
+    width: 30px;
+}
+
+.conteudo{
+    background-color: rgb(235, 236, 236);  
+    height: calc(100vh - 41px);
+    overflow: auto;  
+}
+
+.main-layout {
+    height: calc(100vh);
+}
+
+
+/*  */
+
+.box_perfil  {
+   padding: 9px;
+   background: linear-gradient(90.15deg, rgba(255, 255, 255, 0.1) 76%, rgba(255, 255, 255, 0) 99.38%);  
+   border-radius: 7px;
+}
+
+.box_perfil > span, small{
+    color: white;
+}
+
+.box_perfil > small{
+    font-size: small;
+}
+
+.btn_cadastrar{
+    background-color: #24C595;
+    border-radius: 5px 5px 0 0;
+    border: none;
+
+    color: white;
+    font-size: 15px;
+
+    gap: 5px;
+}
+
+.btn_cadastrar:hover{
+    background-color: #1e66bf;
+    transition: 300ms ease-in-out;
+}
+
+.card_search{
+    margin-bottom: 5vh;
+
+    background-color: #4054b233;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+    min-height: 10vh;
+}
+
+.card_search div{
+    gap: 5px;
+}
+
+.card_search input{
+    border-radius: 5px;
+    border: #2D4562 solid 0.5px;
+    padding: 10px;
+}
+
+.card_search button{
+    border-radius: 5px 5px 0 5px;
+
+    border: none;
+    padding: 5px 10px;
+    background-color: #2C2C54;
+    color: white;
+
+    gap: 5px;
+}
+
+.card_search button:hover{
+    background-color: #1e66bf;
+    transition: 300ms ease-in-out;
+}
+
+.list-card{
+    gap: 5%;
+}
+
+.usuario-card{
+    border-radius: 5px;
+    border: #4054B2 solid 0.5px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+    margin-bottom: 5vh;
+
+    width: 30%;
+    gap: 10px;
+}
+
+.usuario-card > div.card-header{
+    background-color: #409db240;
+    font-size: 18px;
+}
+
+.usuario-card > div.card-body{
+    color: #2D4562;
+    font-size: 15px;
+}
+
+.usuario-card > div.card-body > div{
+    gap: 10px;
+}
+
+.page-item > a{
+    background-color: #2D4562;
+    color: white;
+    height: 41px;
+}
+
+
+/* Painel */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@keyframes blink-animation {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .blink-text {
+    animation: blink-animation 1s infinite;
+  }
+  
+  .stop-animation {
+    animation: none;
+  }
+  
+.bg-blue{
+    background-color: #2D4562;
+    color: #fff;
+}
+
+.bg-blue h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+
+.card{
+    box-shadow: 1px 1px 5px #888888;
+}
+
+.panel{
+    margin: 10px;
+}
+
+.panel h5, .panel .table th{
+    color: #2C2C54;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+.panel h3, .panel .table td{
+    color: #058EDD;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}

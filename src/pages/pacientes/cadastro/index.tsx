@@ -118,12 +118,12 @@ const CadastroPacientes: NextPage<IPrivatePageProps> = (props) => {
                     </div>
                     <div className="form-row">
                             <div className="form-group col-md-6 col-lg-6">
-                              <label htmlFor="Telefone">Telefone1</label>
-                              <input type="tel" name="tel" className="form-control" id="tel" required/>
+                              <label htmlFor="Telefone">Telefone 1</label>
+                              <input type="text" name="tel" className="form-control" id="tel" required/>
                             </div>
                             <div className="form-group col-md-6 col-lg-6">
                                 <label htmlFor="Telefone Secundario">Telefone 2</label>
-                                <input type="tel" name="tel2" className="form-control" id="tel2" required/>
+                                <input type="text" name="tel2" className="form-control" id="tel2" required/>
                               </div>
                         </div>
                     <div className="d-flex mt-4">

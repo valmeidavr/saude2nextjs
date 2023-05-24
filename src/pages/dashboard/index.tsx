@@ -61,7 +61,7 @@ const Dashboard: NextPage<IPrivatePageProps> = (props) => {
   return (
     <>
       <Head>
-        <title>Sistema de saúde</title>
+        <title>Sistema de Serviços</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -69,7 +69,7 @@ const Dashboard: NextPage<IPrivatePageProps> = (props) => {
       <Layout titulo="Dashboard" email={props.email} perfil={props.types} sala={props.sala}>
         <div className="card p-4 shadow">
             <div className="alert alert-primary" role="alert">
-              <h4 className="alert-heading text-start"><img src="/assets/images/bell.svg"/> Sistema de Saúde <small style={{color: 'black'}}>Versão: PROD-1</small></h4>
+              <h4 className="alert-heading text-start"><img src="/assets/images/bell.svg"/> Sistema de Serviços <small style={{color: 'black'}}>Versão: 1.0</small></h4>
               <hr/>
               <p className="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod perferendis eaque vel, fugiat, labore veritatis deserunt officiis itaque a numquam explicabo omnis! Fugit debitis reprehenderit sequi! Ratione veritatis ex fugit..</p>  
               <p className="mb-0"><b>Dúvidas?</b></p>

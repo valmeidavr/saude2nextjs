@@ -13,7 +13,6 @@ export const Menu: React.FC = () => {
             <hr style={{backgroundColor: 'rgb(200, 200, 200)', marginBottom: '-10px'}}/>
                 <ul className="list-unstyled d-flex flex-column" style={{marginLeft: '-10px'}}>
                     <MenuItem imgsrc='/assets/images/dash.svg' href='/dashboard' label='Dashboard'/>
-                    <MenuItem imgsrc='/assets/images/form.svg' href='/unidades' label='Unidades'/> 
                     <MenuItem imgsrc='/assets/images/form.svg' href='/pacientes' label='Pacientes'/> 
                     <MenuItem imgsrc='/assets/images/users.svg' href='/usuarios/lista' label='Usuários'/>
                     <p onClick={() => Logout()} style={{color: 'white', cursor: 'pointer'}}>

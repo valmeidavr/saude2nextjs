@@ -42,7 +42,7 @@ const Pacientes: NextPage<IPrivatePageProps> = (props) => {
        <p>Total de Pacientes:20</p>
        <div className="container-fluid p-0 d-flex flex-wrap list-card">
           
-            <ItemCard id={'1'}  name={'Paciente'}/>
+            <ItemCard id={'1'} nome={'Vinicius de Oliveira Almeida'} cpf={'103.030.697-40'} dataNasc={'28/02/1984'} tel={'(24) 999417827'}/>
             
         </div>
 
@@ -55,48 +55,25 @@ const Pacientes: NextPage<IPrivatePageProps> = (props) => {
 
 interface ItemCardProps {
    id: String,
-   nome:String,
-   dataNasc:Number,
-   RG: Number,
-   CPF: Number,
-   CEP:Number,
-   logradouro:String,
-   bairro:String,
-   cidade:String,
-   uf:String,
-   email:String,
-   tel1:Number,
-   tel2:Number,
-   nomeMae:String
-
+   nome: String,
+   cpf: String,
+   dataNasc: String,
+   tel: String,
 }
 
 const ItemCard: React.FC<ItemCardProps> = (props: ItemCardProps) => {
     return (
       <div className="card usuario-card">
                 <div className="card-header d-flex justify-content-between align-items-center">
-                    {props.name}
+                    {props.nome}
                     <Link href={'paciente/del/' + props.id} > <img src="/assets/images/trashCan.svg" width="15px" data-toggle="tooltip" title="Excluir registro"/> </Link>
                 </div>
                 <div className="card-body d-flex flex-column">
                     <div className="container d-flex-col-sm-4">
-                        <span>Nome: {props.nome}</span>
-                        <p className="card-text">Data de Nascimento: {props.dataNasc}</p>
-                        <p className="card-text">RG: {props.RG}</p>
-                        <p className="card-text">CPF:{props.CPF}</p>
-                        <p className="card-text">CEP:{props.CEP}</p>
-                        <p className="card-text">Logradouro:{props.logradouro}</p>
-                        <p className="card-text">Bairro:{props.bairro}</p>
-                        <p className="card-text">Cidade:{props.cidade}</p>
-                        <p className="card-text">UF:{props.uf}</p>
-                        <p className="card-text">E-mail:{props.email}</p>
-                        <p className="card-text">Tel:{props.tel1}</p>
-                        <p className="card-text">Tel/2:{props.tel2}</p>
-                        <p className="card-text">Nome da Mãe:{props.nomeMae}</p>
-                      </div>
-                        
-                        
-                   
+                        <p className="card-text">CPF: {props.cpf}</p>
+                        <p className="card-text">Nascimento: {props.dataNasc}</p>
+                        <p className="card-text">Telefone: {props.tel}</p>
+                     </div>
                 </div>
       </div>
     );

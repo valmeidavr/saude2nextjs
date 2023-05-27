@@ -6,14 +6,14 @@ import { NextPage } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
-import styles from './Servico.module.css';
+
 
 /* Trocar Default pelo nome da Pagina */
-const Servicos: NextPage<IPrivatePageProps> = (props) => {
+const Default: NextPage<IPrivatePageProps> = (props) => {
     return (
       <>
        <Head>
-        <title>Sistema de Serviços</title>
+        <title>Serviços</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -39,51 +39,61 @@ const Servicos: NextPage<IPrivatePageProps> = (props) => {
                     </div>
                 </div>
        </div>
-       <p>Total de Serviços: 100</p>
-       <div className="container-fluid p-0 d-flex">
-          <table className="table table-bordered table-hover" style={{backgroundColor: 'white'}}>
+       <table className="table table-bordered">
             <thead className="thead-dark">
-              <tr>
-                <th scope="col" style={{width: '70px', padding: '10px'}}>#</th>
-                <th scope="col" style={{padding: '10px'}}>Nome</th>
-                <th scope="col" style={{width: '120px', padding: '10px'}}>Valor</th>
-                <th scope="col" style={{width: '200px', padding: '10px'}}>Ações</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1021</td>
-                <td>Fisioterapia</td>
-                <td>R$50,00</td>
-                <td>
-                  <button type="button" className="btn btn-primary btn-sm mr-2" data-toggle="tooltip" title="Editar registro"><img src="/assets/images/edit.svg" width="20px"/>Editar</button>
-                  <button type="button" className="btn btn-danger btn-sm" data-toggle="tooltip" title="Excluir registro"><img src="/assets/images/trash-white.svg" width="20px"/>Apagar</button>
-                </td>
-              </tr>
-              <tr>
-                <td>1021</td>
-                <td>Fisioterapia</td>
-                <td>R$50,00</td>
-                <td>
-                  <button type="button" className="btn btn-primary btn-sm mr-2" data-toggle="tooltip" title="Editar registro"><img src="/assets/images/edit.svg" width="20px"/>Editar</button>
-                  <button type="button" className="btn btn-danger btn-sm" data-toggle="tooltip" title="Excluir registro"><img src="/assets/images/trash-white.svg" width="20px"/>Apagar</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          
-        </div>
-
-
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col" className='col-6'>SERVIÇO</th>
+              <th scope="col">VALOR</th>
+              <th scope="col">AÇÕES</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Fisiteorapia</td>
+              <td >R$ 100,00</td>
+              <td className='d-flex flex-row bd-highlight mb-3'>
+                <button className="btn btn-outline-info"><p><img src='/assets/images/edit.svg'/>Edit</p></button>
+                <button className="btn btn-outline-danger"><p><img src='/assets/images/blackTrash.svg'/>Deletar</p></button></td>
+            </tr>
+            
+          </tbody>
+        </table>
          {/* Fim do Conteúdo  */}
       </Layout>
       </>
     )
 }
 
+interface ItemCardProps {
+   id: String,
+   regans: String,
+   name: String
+}
+
+const ItemCard: React.FC<ItemCardProps> = (props: ItemCardProps) => {
+    return (
+      <div className="card usuario-card">
+                <div className="card-header d-flex justify-content-between align-items-center">
+                    {props.name}
+                    <Link href={'unidades/del/' + props.id} > <img src="/assets/images/trashCan.svg" width="15px" data-toggle="tooltip" title="Excluir registro"/> </Link>
+                </div>
+                <div className="card-body d-flex flex-column">
+                    <div className="container d-flex">
+                        <img src="/assets/images/info.svg" width="15px"/>
+                        <span>ANS: {props.regans}</span>
+                    </div>
+                </div>
+      </div>
+    );
+}
+
+
+
 
 /* Trocar Default pelo nome da Pagina */
-export default Servicos;
+export default Default;
 
 
 /* Nao alterar */

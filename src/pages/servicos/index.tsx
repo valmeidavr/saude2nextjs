@@ -41,7 +41,7 @@ const Servicos: NextPage<IPrivatePageProps> = (props) => {
        </div>
        <p>Total de Serviços: 100</p>
        <div className="container-fluid p-0 d-flex">
-          <table className="table table-bordered table-hover table-sm" style={{backgroundColor: 'white'}}>
+          <table className="table table-bordered table-hover" style={{backgroundColor: 'white'}}>
             <thead className="thead-dark">
               <tr>
                 <th scope="col" style={{width: '70px', padding: '10px'}}>#</th>

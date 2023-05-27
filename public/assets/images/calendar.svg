@@ -1,9 +1,11 @@
-<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="30" height="30" fill="url(#pattern0)"/>
-<defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_353_14" transform="scale(0.0111111)"/>
-</pattern>
-<image id="image0_353_14" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLUlEQVR4nO2cu07DQBBFtyJ8AiF8IoEO84U8KsKnoKRJdZGFiwSZ4FnPXK+990g0aLQcn1gOmsIpCSGEEEIIIYQQQogE4BrAI4B3AAcslwOANwAPAFbUjx7AHYBP1MeuvXbmnVxj5NPY8Xd297ionS0jdPtMrp1XRuj91FdZAHtG6F7SQsFU16vQPyi0M/iD5f7hiVBoEgpNQqFJKDQJhSah0CQUmoRC1xq6NpJCc1BoEgpNQqFJKDQJhSah0CQUmsScQh8BPAG47X6a7nf/zmc4m84fMh9T91zai6bn7MYyn+FuOv/S/FiXIbJerHvOvrHMZ7ibzr80P9ZliKwXtz1nb6IvrDSfHFErTc/Zz9EXVppPjqiVY/cMpH75lOaTIxpKMvpE+4cF9ha1YvWJ9g8L7C1qxeoT7R8W2FvUitUn2j8ssLeoFatPtH9YYG9RK1afaP+wwANEs3cXKOffu1nsOpo57BZQmE+O6HoOuwUU5hO+K4DDfIa7m89YlyGyLrsCOMxnuLv5jHUZIuuyK8CI+Qxnd5+YuufSAgpNQ3c0CYUmodAkFLqC0KG7DsTPzyZ06K4D8fMmUjRT7ToQP28iRVPSrgO+8yZSNCXtOuA7byJFU8KuAzHzswldFUmhOSj0gkLrdWzAFyO0XjAIzgsG27fO1s49I/SqexFqrXwAuAoPffJa412lkTeUyL/u7G37vFr4F+QewEv7uKDdyUIIIYQQQgghhBCpbL4BEYCZINBQ9RMAAAAASUVORK5CYII="/>
-</defs>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_372_14" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="3" y="2" width="42" height="42">
+<path d="M5 19H43V40C43 40.5304 42.7893 41.0391 42.4142 41.4142C42.0391 41.7893 41.5304 42 41 42H7C6.46957 42 5.96086 41.7893 5.58579 41.4142C5.21071 41.0391 5 40.5304 5 40V19Z" fill="white" stroke="white" stroke-width="4" stroke-linejoin="round"/>
+<path d="M5 9C5 8.46957 5.21071 7.96086 5.58579 7.58579C5.96086 7.21071 6.46957 7 7 7H41C41.5304 7 42.0391 7.21071 42.4142 7.58579C42.7893 7.96086 43 8.46957 43 9V19H5V9Z" stroke="white" stroke-width="4" stroke-linejoin="round"/>
+<path d="M16 4V12M32 4V12" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28 34H34M14 34H20M28 26H34M14 26H20" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</mask>
+<g mask="url(#mask0_372_14)">
+<path d="M0 0H48V48H0V0Z" fill="#F8F8F8"/>
+</g>
 </svg>

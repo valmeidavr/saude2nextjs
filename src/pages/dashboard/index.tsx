@@ -10,8 +10,6 @@ import { IOption } from '@/interfaces/IOption';
 import { toast } from 'react-toastify';
 import { msgResponse } from '@/util/msg';
 
-
-
 const Dashboard: NextPage<IPrivatePageProps> = (props) => {
   const [usuarios, setUsuarios] = useState([]);
   const [isLoading, setLoading] = useState(true);

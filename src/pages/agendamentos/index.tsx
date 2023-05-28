@@ -68,10 +68,13 @@ const Agendamentos: NextPage<IPrivatePageProps> = (props) => {
         <div className="container-fluid p-0">
                 <div className="container card_search p-3 d-flex align-items-center">
                     <div className="col-6 d-flex">
-                        <input type="text" placeholder="Nome" className="form-control"/>
+                          <select id="servicos" className="form-control" name="servicos" required>
+                                <option value="Fisioterapia"> Fisioterapia </option>
+                                <option value="Terapia"> Terapia </option>
+                           </select>
                         <button className="d-flex justify-content-center align-items-center">
-                            <img src="/assets/images/search.svg" width="20px"/>
-                            Pesquisar
+                            <img src="/assets/images/refresh.svg" width="20px"/>
+                            Atualizar
                         </button>
                     </div>
                 </div>

@@ -1,11 +1,9 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0_372_14" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="3" y="2" width="42" height="42">
-<path d="M5 19H43V40C43 40.5304 42.7893 41.0391 42.4142 41.4142C42.0391 41.7893 41.5304 42 41 42H7C6.46957 42 5.96086 41.7893 5.58579 41.4142C5.21071 41.0391 5 40.5304 5 40V19Z" fill="white" stroke="white" stroke-width="4" stroke-linejoin="round"/>
-<path d="M5 9C5 8.46957 5.21071 7.96086 5.58579 7.58579C5.96086 7.21071 6.46957 7 7 7H41C41.5304 7 42.0391 7.21071 42.4142 7.58579C42.7893 7.96086 43 8.46957 43 9V19H5V9Z" stroke="white" stroke-width="4" stroke-linejoin="round"/>
-<path d="M16 4V12M32 4V12" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M28 34H34M14 34H20M28 26H34M14 26H20" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-</mask>
-<g mask="url(#mask0_372_14)">
-<path d="M0 0H48V48H0V0Z" fill="#F8F8F8"/>
-</g>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="30" height="30" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_403_8" transform="scale(0.02)"/>
+</pattern>
+<image id="image0_403_8" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA1UlEQVR4nO2V0Q7CIBRD+3m+Of//bcp+o2aJTjNBGMGsuJ63jVAovVyAQkieSF75Ypz/lc7fW3/hIbxmRCf6C0/l1Le6fn9GSF5ITsywXqg1KNef9zrEjEyNF6oC2/RDMtrGC20Glfs5rhE1YCNiwImIAaMOOwU2IgaciBg4fCL40vF+MZaj3UQbgRN5x6WlBtx+IyRPx+0XfkdQfblcWtj3QVQDhzcC35FPkuUBt1+4/ZaWSO1YjuqJasBGxIATEQP/nEhgf9xiRobOzASS59gbZCDAHW89wEyxIMcoAAAAAElFTkSuQmCC"/>
+</defs>
 </svg>

@@ -76,12 +76,6 @@ const Dashboard: NextPage<IPrivatePageProps> = (props) => {
               <p className="mb-0">Estamos à disposição no e-mail informatica@aapvr.com.br ou através do sistema <a href="https://solicitaweb.aapvr.com.br">solicita web.</a></p>
             </div>
         </div>
-
-        <div className="card p-4 shadow">
-               
-        </div> 
-
-
       </Layout>
     </>
   )
